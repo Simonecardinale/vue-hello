@@ -15,7 +15,9 @@
             <ul>
                 <li @click="clickMenu" v-for="item in arrayMenu">
                     {{item}}
-                    <div v-if = "none" class="menu_box" :class="none"></div>
+                    <div v-if = "none" class="menu_box" :class="none" v-for="name in arrayBox">
+                        {{name}}
+                    </div>
                 </li>
             </ul>
         </nav>

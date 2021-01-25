@@ -5,7 +5,7 @@
 
 var arrayMenu = ["Chi siamo", "Da dove veniamo", "Dove andiamo", "Quando si mangia?"];
 
-
+var arrayBox = ["ciao", "ciao", "ciao", "ciao","ciao", "ciao", "hola"];
 
 
 
