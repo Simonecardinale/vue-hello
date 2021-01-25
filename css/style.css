@@ -1,3 +1,7 @@
 .border {
     border: 2px solid blue;
 }
+
+.blue {
+    background-color: #15152b;
+}

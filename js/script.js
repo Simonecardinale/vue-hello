@@ -2,13 +2,19 @@
 
 // Bonus: Aggiungere un’immagine presa anch’essa da un data assieme al valore alt dell'attributo. Poi aggiungete all'immagine una classe sempre presa dal data.
 
-var app = new Vue ({
-    el: '#container',
-    data : {
-        message: 'Hello World!',
+var nav = new Vue ({
+    el: 'nav',
+    data: {
+        message: 'Logo del sito',
+        bcgBlue: "blue"
+    }
+});
+
+var header = new Vue ({
+    el: 'header',
+    data: {
         img: "https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374__340.jpg",
         alt: "Development",
         border: "border"
     }
 });
-
