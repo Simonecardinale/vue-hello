@@ -5,3 +5,37 @@
 .blue {
     background-color: #15152b;
 }
+
+.color_white {
+    color: white;
+}
+
+ul, h1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    padding: 20px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.transition {
+    transition: all .3s ease-in;
+}
+
+.none {
+    display: none;
+}
+
+.menu_box {
+    height: 200px;
+    width: 100px;
+    background-color: #fff;
+    border: 2px solid black;
+    position: absolute;
+}

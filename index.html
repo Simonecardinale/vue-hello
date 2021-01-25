@@ -9,12 +9,22 @@
     <title>Document</title>
 </head>
 <body>
-    <nav :class="bcgBlue">
-        <div id="container">
-            <h1>{{message}}</h1>
-            <img :src="img" :alt="alt" :class="border">
-        </div>
-    </nav>
+    <div id="container_vue">
+        <nav class="blue">
+            <h1 :class="white">{{message}}</h1>
+            <ul>
+                <li @click="clickMenu" v-for="item in arrayMenu">
+                    {{item}}
+                    <div v-if = "none" class="menu_box" :class="none"></div>
+                </li>
+            </ul>
+        </nav>
+            <header>
+                <img :src="img" :alt="alt" :class="border">
+            </header>
+    </div>
+    
+    
 
 
     <script src="js/script.js"></script>
