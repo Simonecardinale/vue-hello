@@ -12,11 +12,15 @@
     <div id="container_vue">
         <nav class="blue">
             <h1 :class="white">{{message}}</h1>
-            <ul>
+            <ul class="menu-write">
                 <li @click="clickMenu" v-for="item in arrayMenu">
                     {{item}}
-                    <div v-if = "none" class="menu_box" :class="none" v-for="name in arrayBox">
-                        {{name}}
+                    <div v-if = "none" class="menu_box" :class="none">
+                        <ul class="box-write">
+                            <li v-for="name in arrayBox">
+                                {{name}}
+                            </li>
+                        </ul>
                     </div>
                 </li>
             </ul>
